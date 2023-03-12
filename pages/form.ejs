@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title><%= title %></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <main>
+      <h1><%= header1 %></h1>
+      <form action="<%= action %>" method="POST">
+        <div>
+          <p>
+            <label for="number">Number:</label>
+            <input
+              type="text"
+              id="number"
+              name="number"
+              size="5"
+              value="<%= number.value %>"
+              <%= number.readonly %>
+            />
+          </p>
+          <p>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              size="35"
+              value="<%= name.value %>"
+              <%= name.readonly %>
+            />
+          </p>
+          <p>
+            <label for="breed">Breed</label>
+            <input
+              type="text"
+              id="breed"
+              name="breed"
+              size="25"
+              value="<%= breed.value %>"
+              <%= breed.readonly %>
+            />
+          </p>
+          <p>
+            <label for="length">Length:</label>
+            <input
+              type="text"
+              id="length"
+              name="length"
+              size="25"
+              value="<%= length.value %>"
+              <%= length.readonly %>
+            />
+          </p>
+          <p>
+            <label for="birth">Birth:</label>
+            <input
+              type="text"
+              id="birth"
+              name="birth"
+              size="10"
+              value="<%= birth.value %>"
+              <%= birth.readonly %>
+            />
+          </p>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <a href="/"><button>Go to menu</button></a>
+    </main>
+  </body>
+</html>

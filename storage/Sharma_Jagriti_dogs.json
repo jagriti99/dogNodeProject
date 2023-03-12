@@ -1,0 +1,51 @@
+[
+    {
+        "number": 4,
+        "name": "Spot",
+        "breed": "lapdog",
+        "length": 20,
+        "birth": 2018
+    },
+    {
+        "number": 2,
+        "name": "Rex",
+        "breed": "spaniel",
+        "length": 70,
+        "birth": 2010
+    },
+    {
+        "number": 5,
+        "name": "Canine The III",
+        "breed": "furry tail-wagger",
+        "length": 35,
+        "birth": 2005
+    },
+    {
+        "number": 1,
+        "name": "Grand Duke of S.Q.L",
+        "breed": "bulldog",
+        "length": 42,
+        "birth": 2015
+    },
+    {
+        "number": 6,
+        "name": "Gigant Howler",
+        "breed": "datahound",
+        "length": 50,
+        "birth": 1995
+    },
+    {
+        "number": 7,
+        "name": "Hound of Basker W.I.11e",
+        "breed": "watchdog",
+        "length": 40,
+        "birth": 1990
+    },
+    {
+        "number": 3,
+        "name": "Barky",
+        "breed": "muddypaw",
+        "length": 30,
+        "birth": 2017
+    }
+]

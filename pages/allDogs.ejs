@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h2>All Dog</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Breed</th>
+            <th>Length</th>
+            <th>Birth</th>
+          </tr>
+        </thead>        
+<tbody>
+    <% result.forEach(dog => { %>
+    <tr>
+        <td><%= dog.number %></td>
+        <td><%= dog.name %></td>
+        <td><%= dog.breed %></td>
+        <td><%= dog.length %></td>
+        <td><%= dog.birth %></td>
+    </tr>
+
+<% })%>
+</tbody>
+</table>
+<a href="/"><button>Menu</button></a>
+</main>
+</body>
+</html>
+

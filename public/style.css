@@ -1,0 +1,59 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  main,
+  form {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  input[readonly] {
+    background-color: rgb(231, 198, 198);
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    padding: 0.5em;
+  }
+  
+  thead {
+    background-color: rgb(240, 212, 175);
+  }
+  
+  button {
+    font-family: inherit;
+    font-size: inherit;
+    width: 13em;
+    height: 2em;
+  }
+  
+  p.error {
+    border: 2px dashed coral;
+    padding: 1em;
+  }
+  
+  p.info {
+    border: 2px solid lightseagreen;
+    padding: 1em;
+  }
+  
+  h1.error {
+    color: coral;
+  }
+  
+  .legend{
+      color: #8781ff;
+  }
+
+  main a{
+    margin: 1rem;
+  }
